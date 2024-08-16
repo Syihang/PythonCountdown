@@ -1,17 +1,3 @@
-# PythonCountdown
-用Python实现了一个简单的倒计时小程序，有GUI界面
-
-#### GUI界面：
-
-<img src="image\image-20240816150544803.png" alt="image-20240816150544803" />
-
-<img src="image\image-20240816150759152.png" alt="image-20240816150759152" />
-
-<img src="image\image-20240816150854882.png" alt="image-20240816150854882" />
-
-##### 代码如下：
-
-```Python
 # 倒计时程序 苏一行 20229639 2024/08/09
 import tkinter as tk
 from tkinter import messagebox
@@ -208,7 +194,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = CountdownApp(root)
     root.mainloop()
-
-
-```
 
